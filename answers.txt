@@ -1,0 +1,17 @@
+Ryne Bell
+CSSE376
+Lab7
+4/16/2012
+
+1. Using Selenium is useful because it allows us to run a series of test cases on our web page in a simple repeatable way rather than just 'testing it out' manually, it also directly uses the functionality of a web page like a user rather than just looking at the underlying code and verifying it is correct.
+
+2. It (from my very limited experience) is only capable of testing certain types of content, ie. a flash based web page would be hard to test with it, also if there are any functional changes to the way a web page works it may break the test cases even if the user experience is the same.
+
+3. <tr><td><a href="myCase.html">MyCase</a></tr></td>
+
+4. <tr>
+	<td>click</td>
+	<td>//a[@id='myLink']/</td>
+	<td></td>
+   </tr>
+5. Using HTML is nice because we are testing HTML, so it is easy to describe things using a similar language. Also, the structure is easy to understand, and allows for the linking of other tests into a test suite in a simle way. The problems will start to occur with complex test cases where it is difficult to understand what is going on as it can be difficult to know what a more complex line of of a test does (ie. //div[@id='cse']/div/div/div[5]/div[2]/div/div/div/div/table/tbody/tr/td[2]/div/a/b from the computerscience.html file).
